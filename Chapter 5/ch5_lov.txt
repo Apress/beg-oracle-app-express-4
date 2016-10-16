@@ -1,0 +1,7 @@
+SELECT DISTINCT
+  INITCAP(created_by) d,
+  created_by r
+FROM
+  tickets
+ORDER BY
+  created_by
